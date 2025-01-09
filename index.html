@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A stunning landing page inspired by Founders Fund visuals for NYC.">
+    <title>NYC Landing Page</title>
+
+
+    <!-- Icons - Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <h1 class="logo">NYC Project</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul id="myLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="mySlides">
+            <video class="hero-video" autoplay muted loop>
+                <source src="./media/iths-bg-video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2 class="hero-title">Welcome to NYC</h2>
+                <p class="hero-subtitle">A new vision for the city that never sleeps.</p>
+                <a href="#explore" class="btn-primary"><p>Explore Now</p></a>
+            </div>
+        </div>
+        <div class="mySlides">
+            <video class="hero-video" autoplay muted loop>
+                <source src="./media/iths-bg-video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2 class="hero-title">Welcome to NYC 2!</h2>
+                <p class="hero-subtitle">A new vision for the city that never sleeps. 2!</p>
+                <a href="#explore" class="btn-primary"><p>Explore Now 2!</p></a>
+            </div>
+        </div>
+        <div class="mySlides">
+            <video class="hero-video" autoplay muted loop>
+                <source src="./media/iths-bg-video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2 class="hero-title">Welcome to NYC 3!</h2>
+                <p class="hero-subtitle">A new vision for the city that never sleeps. 2!</p>
+                <a href="#explore" class="btn-primary"><p>Explore Now 3!</p></a>
+            </div>
+        </div>
+        <div class="mySlides">
+            <video class="hero-video" autoplay muted loop>
+                <source src="./media/iths-bg-video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2 class="hero-title">Welcome to NYC 4!</h2>
+                <p class="hero-subtitle">A new vision for the city that never sleeps. 2!</p>
+                <a href="#explore" class="btn-primary"><p>Explore Now 4!</p></a>
+            </div>
+        </div>
+        <div class="mySlides">
+            <video class="hero-video" autoplay muted loop>
+                <source src="./media/iths-bg-video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2 class="hero-title">Welcome to NYC 5!</h2>
+                <p class="hero-subtitle">A new vision for the city that never sleeps. 2!</p>
+                <a href="#explore" class="btn-primary"><p>Explore Now 5!</p></a>
+            </div>
+        </div>
+        <div class="carousel-buttons">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+          </div>
+
+    </section>
+
+    <!-- Scripts -->
+    <script src="./index.js"></script>
+</body>
+</html>
